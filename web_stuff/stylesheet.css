@@ -1,5 +1,73 @@
-#small    {
-width:20px;
-color:rgb(255,0,0);
-height: 20px;
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+
+    background: #000000;
+    color: #888888;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 0px 15px 15px 0px;
+    margin-left: 35px;
+}
+
+h1 {
+		//position: fixed;
+		left: 35px;
+		top: 35px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 0 0 15px 0;
+        width: auto;
+        margin-left: 35px;
+         margin-top: 35px;
+    }
+iframe, p{
+    left: 35px;
+    //position: relative;
+    //position: absolute;
+
+    top: 35px;
+    z-index: 99;
+    margin-left: 35px;
+}
+
+#small_left    {
+	left: 35px;
+	//position: relative;
+	background:rgb(0,0,0);
+	width:30px;
+	color:rgb(255,0,0);
+	height: 30px;
+	font-size: large;
+	border-color:rgb(255,255,255);
+	//margin:auto;
+	margin-left: 35px;
+
+}
+#small_right   {
+	left: 35px;
+	//position: relative;
+	background:rgb(0,0,0);
+	width:30px;
+	color:rgb(255,0,0);
+	height: 30px;
+	font-size: large;
+	border-color:rgb(255,255,255);
+	//margin:auto;
+	
+}
+#button    {
+	left: 35px;
+	//position: relative;
+
+
 }
